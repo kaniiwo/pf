@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*cCatch*/
+#cCatch {
+    position: relative;
+    background-color: black;
+}
+#cCatch p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-size: 300%;
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.9) 1px 1px 3px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+        #cCatch p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        text-align: center;
+        line-height: 200%;
+        font-family: 'Exo', sans-serif;
+        font-weight: 900;
+        font-size: 300%;
+      color: transparent;
+      background-color : black;
+      text-shadow : rgba(255,255,255,0.1) 0 5px 6px, rgba(255,255,255,0.99) 1px 1px 3px;
+    -webkit-background-clip : text;
+    }
+}
+#cBg img{
+    opacity: 0.9;
+}
+
+/*cImg*/
+#cImg {
+    width: 1000px;
+    margin-bottom: 60px
+}
+#cImg h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 120%;
+}
+#cImg h2 {
+    color: #222;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 95%;
+}
+#cImg p {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 90%;
+    line-height: 150%;
+}
+#cL {
+    width: 470px;
+    float: left;
+}
+#cR {
+    width: 470px;
+    float: right;
+}
+.pic img {
+    width: 120px;
+    margin: 10px;
+    border: solid 2px #fff;
+}
+.pic{
+    text-align: center;
+}
+
+/*cDetail*/
+#cDetail {
+    width: 1000px;
+    background-image: url(../img/concept/con_detail.jpg) ;
+}
+#dBg {
+    background-color: rgba(255,255,255,0.7);
+}
+#cDetail h1{
+    transform: none;
+    padding: 20px;
+    text-shadow: 1px 1px 3px #fff;
+}
+#cDetail p {
+    padding: 30px 0 40px 30px;;
+    width: 600px;
+    line-height: 150%;
+    font-size: 90%;
+    text-shadow: 1px 1px 3px #fff;
+}

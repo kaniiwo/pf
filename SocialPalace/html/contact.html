@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>SOCIAL PALACE</title>
+        <!-- <meta name="keywords" content="賃貸,マンション,シェアハウス">
+        <meta name="description" content="シェアハウスにはない新しい住まいの提案。従来のマンションとは違い、プライバシーを確保し入居者同士が集うラグジュアリー空間を設置しております。"> -->
+        <meta name="robots" content="noindex,nofollow">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contact.css">
+        <link rel="icon" href="../favicon.ico">
+<!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&amp;subset=japanese" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    </head>
+<!--body-->
+    <body>
+        <div id="container">
+        <header class="cf">
+            <div id="logo">
+            <a href="../index.html"><img src="../img/logo.png" alt="SOCIAL PALACE"></a>
+            </div>
+            <nav>
+                <ul class="cf">
+                    <li><a href="../html/apartment.html">APARTMENT</a></li>
+                    <li><a href="../html/concept.html">CONCEPT</a></li>
+                    <li><a href="../html/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="txt">
+            <h1>CONTACT</h1>
+            <p>お問い合わせいただきありがとうございます。下記の入力ホームに必要事項をご記入ください。</p>
+            <p>弊社では、迅速にお問い合わせに対応するため、お電話でのお問い合わせをおすすめしております。</p>
+            <p>お電話でのお問合せの場合、株式会社xxx管理部【999-9999-999】</p>
+            <p>（10:00～19:00 定休日：水・祝日）まで直接ご連絡下さい。</p>
+            <p>建物の不具合、緊急の連絡等は下記コールセンターへご連絡ください。</p>
+            <p>入居者専用コールセンター：0120-999-999（24時間コール受付）</p>
+        </div>
+            
+       <section id="cForm">
+            <form action="mail.php" method="post">
+                <table>
+                    <tr>
+                        <th>問い合わせ物件<span></span></th>
+                        <td>
+                           <select name="物件名" class="iF" id="sName">
+                            <option value="選択肢" label="選択してください" selected>選択してください</option>
+                            <option value="SOCIAL PALACE 新宿" label="SOCIAL PALACE 新宿">SOCIAL PALACE 新宿</option>
+                            <option value="SOCIAL PALACE 秋葉原" label="SOCIAL PALACE 秋葉原">SOCIAL PALACE 新宿</option>
+                            <option value="SOCIAL PALACE 立川" label="SOCIAL PALACE 立川">SOCIAL PALACE 立川</option>
+                            <option value="SOCIAL PALACE 鎌倉" label="SOCIAL PALACE 鎌倉">SOCIAL PALACE 鎌倉</option>
+                            <option value="SOCIAL PALACE 袖ヶ浦" label="SOCIAL PALACE 袖ヶ浦">SOCIAL PALACE 袖ヶ浦</option>
+                            <option value="その他" label="その他">その他</option>
+                            </select>
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>氏名<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="お名前" placeholder="名字　名前" required class="iF">
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>フリガナ<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="フリガナ" placeholder="ミョウジ　ナマエ" required class="iF">
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>生年月日<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="生年月日" placeholder="9999/99/99" required class="iF">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>性別<span>*必須</span></th>
+                        <td>
+                            <input type="radio" name="性別" id="man" value="男性"><label for="man">男性</label>
+                            <input type="radio" name="性別" id="woman" value="女性"><label for="woman">女性</label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>電話番号</th>
+                        <td>
+                            <input type="text" name="電話番号" placeholder="999-9999-9999" required class="iF">
+                        </td>
+                         
+                    </tr>
+                    <tr>
+                        <th>メールアドレス<span>*必須</span></th>
+                        <td>
+                        <input type="email" name="メール" placeholder="999@address.co.jp" required id="email" class="iF">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>お問い合わせ内容</th>
+                        <td>
+                            <textarea name="内容" placeholder="お問い合わせ内容をご入力ください" class="iF" id="tArea"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                    <p><input type="submit" id="sBtn"  value="送 信"></p>
+<!--                <input type="reset">-->
+                </form>
+        </section>                    
+            
+<!--end/body-->
+    <footer>
+        <ul>
+            <li><a href="http://www.instagram.com/"><img src="../img/sns_ig.png" alt="Instagram" ></a></li>
+            <li><a href="http://www.facebook.com/"><img src="../img/sns_fb.png" alt="Facebook"></a></li>
+            <li><a href="http://twitter.com/"><img src="../img/sns_tw.png" alt="Twitter"></a></li>
+            <li><a href="../html/index.html">TOP</a></li>
+            <li><a href="../html/contact.html">お問い合わせ</a></li>
+            <li><a href="../html/privacy.html">プライバシーポリシー</a></li>
+            <li><a href="../html/company.html">会社概要</a></li>
+        </ul>
+        <p><small>&copy;2018 SOCIAL PALACE</small></p>
+    </footer>
+   </div>
+</body>
+</html>

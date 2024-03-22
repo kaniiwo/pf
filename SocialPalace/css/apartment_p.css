@@ -1,0 +1,144 @@
+@charset "utf-8";
+h1 {
+    text-align: center;
+}
+
+/*aCatch*/
+#aCatch h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+/*aPdetail*/
+#map {
+    width: 500px;
+    float: left;
+}
+#map iframe {
+    padding: 25px;
+}
+#aPd {
+    width: 450px;
+    float: right;
+    margin: 25px;
+}
+#aPd table{
+  border-collapse:collapse;
+  margin:0 auto;
+}
+#aPd td,#aPd th{
+  border-top:1px solid #666;
+    vertical-align: middle;
+    font-size: 90%;
+    padding:10px;
+    line-height: 1.8;
+}
+#aPd th{
+    font-size: 90%;
+    width: 25%;
+    height: 25px;
+    font-weight: 600;
+}
+#aPd td{
+    font-size: 90%;
+    padding-left: 20px;
+}
+#aPd tr:last-child td,
+#aPd tr:last-child th{
+  border-bottom:1px solid #666;  
+  height: 106px;
+}
+#aPdetail h1{
+    padding: 30px 0 20px 0;
+}
+
+/*aPp*/
+#aPp {
+    margin-bottom: 10px;
+}
+#aL img {
+    width:  230px;
+    padding: 0 10px ;
+}
+#aL {
+    float: left;
+}
+#auL {
+    margin: 10px 0 10px 0;
+}
+#aR {
+    float: right;
+}
+#aR img {
+    width: 480px;
+    padding: 10px
+}
+/*aDetail*/
+#aDetail {
+    margin-bottom: 50px;
+}
+#aDetail h1 {
+    padding:  40px 0 30px 0;
+} 
+#aDp {
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+#aDp img {
+    width: 90%;
+}
+#aTbl {
+    float: right;
+    width: 500px;
+}
+#aTbl table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+#aDetail th{
+    font-weight: 600;
+    text-decoration: underline;
+}
+#aDetail td,#aDetail th{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+    width: 60px;
+    vertical-align: middle;
+    font-size: 90%
+}
+#aDetail td {
+    background-color: #fff;
+}
+#aDetail .rB {
+    width: 120px;
+    padding: 0 0 0 7px;
+    text-align: left;   
+}
+#aDetail .rBt {
+    width: 120px;
+    padding: 0 0 0 7px;
+    font-size: 75%;
+    text-align: left;   
+}
+#aDbtn{
+    float: right;
+    margin: 10px 34px
+}
+#aDbtn a{
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 90%;
+    border: 2px solid #222;
+}
+#aDbtn a:hover {
+    border-style: dashed;
+}
