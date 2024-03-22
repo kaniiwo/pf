@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+     <head>
+        <meta charset="utf-8">
+        <title>アンソレイェ熱海</title>
+        <meta name="keywords" content="老人ホーム,高級,熱海">
+        <meta name="description" content="介護付き有料老人ホーム、アンソレイェ熱海。贅沢な居住空間の中で、ご高齢になっても自分らしい暮らしのお手伝いをさせていただきます。">
+        <meta name="robots" content="noindex,nofollow">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/request.css">
+        <link rel="stylesheet" href="../css/responsive.css">       <link rel="icon" href="../favicon.ico">
+<!--js-->
+         <script src=”../js/jQuery-3.3.1.js”></script>
+<!--Google Fonts-->
+    </head>
+<!--body-->
+    <body>
+    <div id="container" class="cf">
+        <header class="cf">
+            <div>
+                <a href="../index.html"><img src="../img/logo.png" alt="アンソレイェ熱海"></a>
+            </div>
+            <nav>
+                <ul class="cf">
+                    <li><a href="../html/request.html">資料請求</a></li>
+                    <li><a href="../html/tour.html">見学予約</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="txt">
+            <h1>見学予約</h1>
+            <p>お問い合わせいただきありがとうございます。<br>下記の入力ホームに必要事項をご記入ください。</p>
+            <p>お選びいただいたホーム : アンソレイェ熱海</p>
+        </div>
+            
+       <section id="cForm">
+            <form action="mail.php" method="post">
+                <table>
+                     <tr>
+                        <th>氏名<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="名前" placeholder="（例）佐藤　太郎" required class="iF fName">
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>フリガナ<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="ナマエ" placeholder="（例）さとう　たろう" required class="iF fName">
+                        </td>
+                    </tr>
+                     <tr>
+                        <th>電話番号<span>*必須</span></th>
+                        <td>
+                            <input type="text" name="電話番号" placeholder="（例）999-9999-9999" required class="iF">
+                        </td>
+                         
+                    </tr>
+                    <tr>
+                        <th>メールアドレス</th>
+                        <td>
+                        <input type="email" name="メール" placeholder="（例）999@address.co.jp" id="email" class="iF">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>見学希望日<span>*必須</span></th>
+                        <td>
+                            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+                            <p><input type="text"  name="見学希望日" placeholder="年/月/日" id="input1"  class="iF" required></p>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+                            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
+                            <script>
+                                $(function() {
+                                    $.datepicker.setDefaults($.datepicker.regional["ja"]);
+                                    $("#input1").datepicker();
+                                });
+                            </script>
+                        </td>
+                    </tr>
+                 </table>
+                    <div id="rPrivacy">
+                    <h2>＜個人情報の取り扱いについて＞</h2>
+                        <p>お客様の個人情報は、お申込みいただいた資料送付、見学対応等のほか、弊社およびその関連会社の営む介護その他の高齢者事業、保育等の子育て支援事業、健康促進事業、配食事業およびそれらに付帯する事業に関するご案内・メールマガジンの送付等、および各種の統計調査に利用することがあります。<br>個人情報の開示・訂正・利用停止等をご希望の場合には、下記「個人情報相談窓口」までご連絡ください。私どもはお預かりした個人情報を大切にお取り扱いさせていただきます。</p>
+                        <strong>個人情報相談窓口:0120-999-999</strong>
+                        <a href="privacy.html">プライバシーポリシーを見る</a>
+                    </div>
+                    <p><input type="submit" id="sBtn"  value="送信"></p>
+<!--                <input type="reset">-->
+                </form>
+        </section>    
+    
+<!--end/body-->
+    <footer>
+        <ul>
+            <li><a href="../index.html">TOP</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+            <li><a href="privacy.html">プライバシーポリシー</a></li>
+            <li><a href="company.html">会社概要</a></li>
+        </ul>
+        <p><small>&copy;アンソレイェ熱海</small></p>
+    </footer>
+   </div>
+</body>
+</html>

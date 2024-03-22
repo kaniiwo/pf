@@ -1,0 +1,56 @@
+/* smartphone */
+@media screen and (max-width:640px) {
+    #container{
+    width: 100%;
+    max-width: 1000px;
+    font-size: 64%;
+    }
+    header div img{
+        width: 35%;
+        margin: 2%;
+        height: auto;
+    }
+    header ul li{
+        margin: 0.8em;
+    }
+    #aMap,#aTxt {
+        float: none;
+    }
+    #aMap {
+        margin: inherit;
+        text-align: center;
+    }
+    #aTxt{
+        width: 80%;
+        font-size: 120%;
+        margin: auto;
+    }
+    #cLi ul li a{
+    padding: 20px 10px;
+        font-size: 150%
+}
+    img {
+        width: 100%;
+    }
+    footer{
+        width: auto;
+    }
+/*company*/
+    #cMapp {
+        display: none;
+    }
+    #cMapr {
+        display: block;
+        text-align: center;
+    }
+/*privacy*/
+    #privacy{
+        font-size: 110%;
+    }
+/*contact*/
+    #txt,#cForm {
+        font-size: 120%;
+    }
+}
+
+/* smartphone */
